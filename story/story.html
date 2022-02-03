@@ -3,16 +3,33 @@
   <head>
     <title>Localizing the Map</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <style>
+    #map {
+    height: 100%;
+    }
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    </style>
     <script src="./index.js"></script>
   </head>
   <body>
+    <div class="who" id="about">
+    <div class="para">
+      <h1> The Western Ghats </h1>
+      <h2> A biodiversity hotspot
+      <p> This is a mountain range that covers the South Western part of India. It stretches across six Indian states- Karnataka, Goa, Maharashtra, Gujarat, Kerala, and Tamil Nadu. 
+        This mountain range is also a very popular vacation spot for most locals to escape from the heat. </p>
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
       src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly&language=ja&region=JP"
-      async
+      async 
     ></script>
   </body>
 </html>
