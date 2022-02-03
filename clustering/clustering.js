@@ -19,7 +19,14 @@ function initMap() {
   new MarkerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+    gridSize: 40,
+    zoomOnClick: false,
+    maxZoom: 10,
   });
+  const styles = markerClusterer.getStyles();
+for (let i=0; i<styles.length; i++) {
+  styles[i].textColor = "black";
+  styles[i].textSize = 14;
 }
 const locations = [
   { lat: 49.758123, lng: -92.65349},
