@@ -8,7 +8,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 
 ## Directions URL 
 ```
-https://maps.googleapis.com/maps/api/directions/json?destination=ChIJx31rGKJoUjoR2_i4-OMdm14&mode=walking&origin=ChIJM-WyVNJnUjoRidu8sHTZJ8s&waypoints=via:place_id:ChIJH7hVUn9oUjoR3pS3Si7dSKE&&region=in&units=metric&key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w
+https://maps.googleapis.com/maps/api/directions/json?departure_time=now&destination=place_id%3AChIJx31rGKJoUjoR2_i4-OMdm14&origin=place_id%3AChIJM-WyVNJnUjoRidu8sHTZJ8s&waypoints=place_id%3AChIJQTEBK-tnUjoRFJ900eUBOaQ%7Cvia%3Aplace_id%3AChIJH7hVUn9oUjoR3pS3Si7dSKE&&mode=driving&traffic_model=optimistic&region=in&units=metric&key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w
 ```
 
 ## Next paste the full JSON response to this query here:
