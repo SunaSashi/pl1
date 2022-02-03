@@ -6,10 +6,9 @@ Be creative and use multiple parameters from the API documentation to earn a top
 
 > Tip: Can't make changes? GitHub previews MD documents by default (read-only). Start editing to make the changes for your URL and JSON response below
 
-## Directions URL
-
+## Directions URL 
 ```
-https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?destination=ChIJx31rGKJoUjoR2_i4-OMdm14&mode=walking&origin=ChIJM-WyVNJnUjoRidu8sHTZJ8s&waypoints=via:place_id:ChIJH7hVUn9oUjoR3pS3Si7dSKE&&region=in&units=metric&key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w
 ```
 
 ## Next paste the full JSON response to this query here:
